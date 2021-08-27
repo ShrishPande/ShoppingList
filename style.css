@@ -1,0 +1,33 @@
+.done{
+    text-decoration:line-through;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    display: block;
+    background-color: crimson;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    box-shadow: 0.1rem 0.1rem 0.4rem black;
+}
+.delClass {
+    display: flex;
+    color: blueviolet;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:20%;
+    margin-top: 0;
+    background-color: cyan;
+    border: 1px solid crimson;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0.1rem 0.1rem 0.4rem black;
+    position: relative;
+  }
